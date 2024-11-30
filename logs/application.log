@@ -1,0 +1,387 @@
+2024-11-29T23:56:57.636+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Starting EmployeeManagementApplication using Java 17.0.10 with PID 3168 (C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement\target\classes started by harish in C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement)
+2024-11-29T23:56:57.646+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-29T23:56:57.697+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-29T23:56:57.697+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-29T23:56:58.429+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-29T23:56:58.491+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2024-11-29T23:56:59.206+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-11-29T23:56:59.229+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-29T23:56:59.230+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-11-29T23:56:59.297+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-29T23:56:59.298+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1600 ms
+2024-11-29T23:56:59.516+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-29T23:56:59.604+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-29T23:56:59.670+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-11-29T23:57:00.018+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-29T23:57:00.065+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-11-29T23:57:00.423+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75322bb0
+2024-11-29T23:57:00.425+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-11-29T23:57:01.292+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-29T23:57:01.329+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T23:57:01.943+05:30  WARN 3168 --- [EmployeeManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-11-29T23:57:01.962+05:30  WARN 3168 --- [EmployeeManagement] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-11-29T23:57:01.964+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T23:57:01.968+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2024-11-29T23:57:01.977+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2024-11-29T23:57:01.990+05:30  INFO 3168 --- [EmployeeManagement] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-29T23:57:02.020+05:30 ERROR 3168 --- [EmployeeManagement] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-11-29T23:57:13.607+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Starting EmployeeManagementApplication using Java 17.0.10 with PID 15116 (C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement\target\classes started by harish in C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement)
+2024-11-29T23:57:13.618+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-29T23:57:13.671+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-29T23:57:13.672+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-29T23:57:14.345+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-29T23:57:14.403+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2024-11-29T23:57:15.005+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-11-29T23:57:15.019+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-29T23:57:15.019+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-11-29T23:57:15.087+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-29T23:57:15.089+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1415 ms
+2024-11-29T23:57:15.259+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-29T23:57:15.327+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-29T23:57:15.371+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-11-29T23:57:15.652+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-29T23:57:15.690+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-11-29T23:57:15.967+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a32876b
+2024-11-29T23:57:15.968+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-11-29T23:57:16.731+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-29T23:57:16.776+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T23:57:17.353+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-29T23:57:17.402+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-11-29T23:57:17.412+05:30  INFO 15116 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Started EmployeeManagementApplication in 4.259 seconds (process running for 4.934)
+2024-11-30T00:02:36.418+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Starting EmployeeManagementApplication using Java 17.0.10 with PID 6304 (C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement\target\classes started by harish in C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement)
+2024-11-30T00:02:36.437+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T00:02:36.581+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30T00:02:36.582+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30T00:02:38.361+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T00:02:38.441+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2024-11-30T00:02:39.455+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-11-30T00:02:39.479+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-30T00:02:39.479+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-11-30T00:02:39.544+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-30T00:02:39.546+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2961 ms
+2024-11-30T00:02:39.755+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T00:02:39.872+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-30T00:02:39.926+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-11-30T00:02:40.424+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T00:02:40.474+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-11-30T00:02:41.039+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16962111
+2024-11-30T00:02:41.041+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-11-30T00:02:42.558+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T00:02:42.623+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:02:43.973+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-30T00:02:44.030+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-11-30T00:02:44.048+05:30  INFO 6304 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Started EmployeeManagementApplication in 8.144 seconds (process running for 8.934)
+2024-11-30T00:03:14.400+05:30  INFO 6304 --- [EmployeeManagement] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30T00:03:14.400+05:30  INFO 6304 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-11-30T00:03:14.400+05:30  INFO 6304 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2024-11-30T00:03:14.883+05:30  INFO 6304 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.a.AbstractOpenApiResource            : Init duration for springdoc-openapi is: 415 ms
+2024-11-30T00:03:52.453+05:30  INFO 6304 --- [EmployeeManagement] [http-nio-8080-exec-2] o.s.a.AbstractOpenApiResource            : Init duration for springdoc-openapi is: 136 ms
+2024-11-30T00:07:52.666+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Starting EmployeeManagementApplication using Java 17.0.10 with PID 10980 (C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement\target\classes started by harish in C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement)
+2024-11-30T00:07:52.679+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T00:07:52.726+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30T00:07:52.726+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30T00:07:53.563+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T00:07:53.609+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2024-11-30T00:07:54.260+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-11-30T00:07:54.277+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-30T00:07:54.278+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-11-30T00:07:54.339+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-30T00:07:54.341+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1612 ms
+2024-11-30T00:07:54.537+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T00:07:54.627+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-30T00:07:54.681+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-11-30T00:07:55.036+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T00:07:55.072+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-11-30T00:07:55.460+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3cc9ccd9
+2024-11-30T00:07:55.462+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-11-30T00:07:56.330+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T00:07:56.378+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:07:57.112+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-30T00:07:57.147+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-11-30T00:07:57.159+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Started EmployeeManagementApplication in 4.971 seconds (process running for 5.658)
+2024-11-30T00:08:21.392+05:30  INFO 10980 --- [EmployeeManagement] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30T00:08:21.392+05:30  INFO 10980 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-11-30T00:08:21.395+05:30  INFO 10980 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-11-30T00:09:36.274+05:30  WARN 10980 --- [EmployeeManagement] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-11-30T00:09:58.995+05:30  INFO 10980 --- [EmployeeManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-30T00:09:59.012+05:30  INFO 10980 --- [EmployeeManagement] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:09:59.029+05:30  INFO 10980 --- [EmployeeManagement] [Thread-5] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2024-11-30T00:09:59.038+05:30  INFO 10980 --- [EmployeeManagement] [Thread-5] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2024-11-30T00:09:59.129+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Starting EmployeeManagementApplication using Java 17.0.10 with PID 10980 (C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement\target\classes started by harish in C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement)
+2024-11-30T00:09:59.130+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T00:09:59.387+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T00:09:59.397+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-11-30T00:09:59.488+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-11-30T00:09:59.490+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-30T00:09:59.491+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-11-30T00:09:59.510+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-30T00:09:59.511+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 379 ms
+2024-11-30T00:09:59.542+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T00:09:59.545+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-11-30T00:09:59.556+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T00:09:59.557+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2024-11-30T00:09:59.579+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36dcfc6d
+2024-11-30T00:09:59.580+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2024-11-30T00:09:59.632+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T00:09:59.649+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:09:59.820+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-30T00:09:59.827+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-11-30T00:09:59.833+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Started EmployeeManagementApplication in 0.747 seconds (process running for 128.333)
+2024-11-30T00:09:59.836+05:30  INFO 10980 --- [EmployeeManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-30T00:10:08.583+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Starting EmployeeManagementApplication using Java 17.0.10 with PID 3964 (C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement\target\classes started by harish in C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement)
+2024-11-30T00:10:08.596+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T00:10:08.647+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30T00:10:08.647+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30T00:10:09.430+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T00:10:09.479+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2024-11-30T00:10:10.089+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-11-30T00:10:10.105+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-30T00:10:10.106+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-11-30T00:10:10.169+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-30T00:10:10.171+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1521 ms
+2024-11-30T00:10:10.354+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T00:10:10.415+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-30T00:10:10.460+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-11-30T00:10:10.750+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T00:10:10.787+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-11-30T00:10:11.029+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39c6fdaa
+2024-11-30T00:10:11.031+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-11-30T00:10:11.832+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T00:10:11.884+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:10:12.551+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-30T00:10:12.584+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-11-30T00:10:12.596+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Started EmployeeManagementApplication in 4.46 seconds (process running for 5.176)
+2024-11-30T00:10:46.550+05:30  INFO 3964 --- [EmployeeManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-30T00:10:46.566+05:30  INFO 3964 --- [EmployeeManagement] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:10:46.569+05:30  INFO 3964 --- [EmployeeManagement] [Thread-5] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2024-11-30T00:10:46.577+05:30  INFO 3964 --- [EmployeeManagement] [Thread-5] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2024-11-30T00:10:46.663+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Starting EmployeeManagementApplication using Java 17.0.10 with PID 3964 (C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement\target\classes started by harish in C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement)
+2024-11-30T00:10:46.664+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T00:10:46.849+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T00:10:46.858+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-11-30T00:10:46.931+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-11-30T00:10:46.932+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-30T00:10:46.932+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-11-30T00:10:46.946+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-30T00:10:46.946+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 280 ms
+2024-11-30T00:10:46.973+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T00:10:46.975+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-11-30T00:10:46.990+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T00:10:46.991+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2024-11-30T00:10:47.009+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@307204ee
+2024-11-30T00:10:47.010+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2024-11-30T00:10:47.039+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T00:10:47.047+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:10:47.189+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-30T00:10:47.198+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-11-30T00:10:47.203+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Started EmployeeManagementApplication in 0.582 seconds (process running for 39.782)
+2024-11-30T00:10:47.205+05:30  INFO 3964 --- [EmployeeManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-30T00:10:54.508+05:30  INFO 3964 --- [EmployeeManagement] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30T00:10:54.508+05:30  INFO 3964 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-11-30T00:10:54.510+05:30  INFO 3964 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2024-11-30T00:10:54.542+05:30  WARN 3964 --- [EmployeeManagement] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-11-30T00:12:03.921+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Starting EmployeeManagementApplication using Java 17.0.10 with PID 13064 (C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement\target\classes started by harish in C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement)
+2024-11-30T00:12:03.936+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T00:12:03.984+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30T00:12:03.985+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30T00:12:04.845+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T00:12:04.898+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+2024-11-30T00:12:05.551+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-11-30T00:12:05.567+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-30T00:12:05.567+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-11-30T00:12:05.623+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-30T00:12:05.626+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1638 ms
+2024-11-30T00:12:05.802+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T00:12:05.871+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-30T00:12:05.907+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-11-30T00:12:06.194+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T00:12:06.230+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-11-30T00:12:06.471+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@383484e0
+2024-11-30T00:12:06.472+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-11-30T00:12:07.280+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T00:12:07.334+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:12:08.035+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-30T00:12:08.062+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-11-30T00:12:08.074+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Started EmployeeManagementApplication in 4.61 seconds (process running for 5.325)
+2024-11-30T00:12:23.704+05:30  INFO 13064 --- [EmployeeManagement] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30T00:12:23.704+05:30  INFO 13064 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-11-30T00:12:23.719+05:30  INFO 13064 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 15 ms
+2024-11-30T00:13:36.185+05:30  INFO 13064 --- [EmployeeManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-30T00:13:36.204+05:30  INFO 13064 --- [EmployeeManagement] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:13:36.207+05:30  INFO 13064 --- [EmployeeManagement] [Thread-5] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2024-11-30T00:13:36.217+05:30  INFO 13064 --- [EmployeeManagement] [Thread-5] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2024-11-30T00:13:36.304+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Starting EmployeeManagementApplication using Java 17.0.10 with PID 13064 (C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement\target\classes started by harish in C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement)
+2024-11-30T00:13:36.305+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T00:13:36.513+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T00:13:36.522+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-11-30T00:13:36.614+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-11-30T00:13:36.616+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-30T00:13:36.617+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-11-30T00:13:36.654+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-30T00:13:36.654+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 346 ms
+2024-11-30T00:13:36.693+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T00:13:36.696+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-11-30T00:13:36.709+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T00:13:36.710+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2024-11-30T00:13:36.728+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b73bf9e
+2024-11-30T00:13:36.729+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2024-11-30T00:13:36.767+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T00:13:36.778+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:13:36.953+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-30T00:13:36.960+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-11-30T00:13:36.963+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Started EmployeeManagementApplication in 0.704 seconds (process running for 94.215)
+2024-11-30T00:13:36.965+05:30  INFO 13064 --- [EmployeeManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-30T00:13:41.544+05:30  INFO 13064 --- [EmployeeManagement] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30T00:13:41.546+05:30  INFO 13064 --- [EmployeeManagement] [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-11-30T00:13:41.546+05:30  INFO 13064 --- [EmployeeManagement] [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2024-11-30T00:18:11.433+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Starting EmployeeManagementApplication using Java 17.0.10 with PID 13264 (C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement\target\classes started by harish in C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement)
+2024-11-30T00:18:11.444+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T00:18:11.490+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30T00:18:11.491+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30T00:18:12.277+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T00:18:12.329+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+2024-11-30T00:18:13.035+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-11-30T00:18:13.050+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-30T00:18:13.051+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-11-30T00:18:13.113+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-30T00:18:13.115+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1621 ms
+2024-11-30T00:18:13.298+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T00:18:13.357+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-30T00:18:13.392+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-11-30T00:18:13.676+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T00:18:13.706+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-11-30T00:18:13.981+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51aa434e
+2024-11-30T00:18:13.983+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-11-30T00:18:14.736+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T00:18:14.794+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:18:15.540+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-30T00:18:15.575+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-11-30T00:18:15.585+05:30  INFO 13264 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Started EmployeeManagementApplication in 4.605 seconds (process running for 5.311)
+2024-11-30T00:18:20.721+05:30  INFO 13264 --- [EmployeeManagement] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30T00:18:20.721+05:30  INFO 13264 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-11-30T00:18:20.722+05:30  INFO 13264 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-11-30T00:20:14.935+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Starting EmployeeManagementApplication using Java 17.0.10 with PID 16316 (C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement\target\classes started by harish in C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement)
+2024-11-30T00:20:14.952+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T00:20:15.002+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30T00:20:15.002+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30T00:20:15.799+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T00:20:15.858+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2024-11-30T00:20:16.446+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-11-30T00:20:16.461+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-30T00:20:16.461+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-11-30T00:20:16.520+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-30T00:20:16.522+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1516 ms
+2024-11-30T00:20:16.708+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T00:20:16.776+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-30T00:20:16.808+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-11-30T00:20:17.067+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T00:20:17.104+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-11-30T00:20:17.381+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@284e17ec
+2024-11-30T00:20:17.383+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-11-30T00:20:18.129+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T00:20:18.235+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:20:18.984+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-30T00:20:19.015+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-11-30T00:20:19.027+05:30  INFO 16316 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Started EmployeeManagementApplication in 4.532 seconds (process running for 5.215)
+2024-11-30T00:20:22.780+05:30  INFO 16316 --- [EmployeeManagement] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30T00:20:22.781+05:30  INFO 16316 --- [EmployeeManagement] [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-11-30T00:20:22.782+05:30  INFO 16316 --- [EmployeeManagement] [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-11-30T00:20:42.677+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Starting EmployeeManagementApplication using Java 17.0.10 with PID 11820 (C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement\target\classes started by harish in C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement)
+2024-11-30T00:20:42.690+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T00:20:42.739+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30T00:20:42.740+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30T00:20:43.664+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T00:20:43.713+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2024-11-30T00:20:44.350+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-11-30T00:20:44.374+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-30T00:20:44.375+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-11-30T00:20:44.428+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-30T00:20:44.430+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1688 ms
+2024-11-30T00:20:44.638+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T00:20:44.716+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-30T00:20:44.759+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-11-30T00:20:45.083+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T00:20:45.133+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-11-30T00:20:45.425+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f5b0fc
+2024-11-30T00:20:45.428+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-11-30T00:20:46.376+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T00:20:46.415+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:20:47.368+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-30T00:20:47.400+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-11-30T00:20:47.411+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Started EmployeeManagementApplication in 5.198 seconds (process running for 5.884)
+2024-11-30T00:20:53.124+05:30  INFO 11820 --- [EmployeeManagement] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30T00:20:53.124+05:30  INFO 11820 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-11-30T00:20:53.133+05:30  INFO 11820 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 9 ms
+2024-11-30T00:20:53.172+05:30  WARN 11820 --- [EmployeeManagement] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-11-30T00:21:02.695+05:30  INFO 11820 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.a.AbstractOpenApiResource            : Init duration for springdoc-openapi is: 654 ms
+2024-11-30T00:28:28.425+05:30  INFO 11820 --- [EmployeeManagement] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-30T00:28:28.442+05:30  INFO 11820 --- [EmployeeManagement] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:28:28.446+05:30  INFO 11820 --- [EmployeeManagement] [Thread-5] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2024-11-30T00:28:28.454+05:30  INFO 11820 --- [EmployeeManagement] [Thread-5] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2024-11-30T00:28:28.547+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Starting EmployeeManagementApplication using Java 17.0.10 with PID 11820 (C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement\target\classes started by harish in C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement)
+2024-11-30T00:28:28.548+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T00:28:28.802+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T00:28:28.812+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2024-11-30T00:28:28.914+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-11-30T00:28:28.918+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-30T00:28:28.919+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-11-30T00:28:28.936+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-30T00:28:28.936+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 385 ms
+2024-11-30T00:28:28.963+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T00:28:28.966+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-11-30T00:28:28.977+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T00:28:28.978+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2024-11-30T00:28:28.996+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1870052d
+2024-11-30T00:28:28.996+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2024-11-30T00:28:29.032+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T00:28:29.044+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:28:29.235+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-30T00:28:29.243+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-11-30T00:28:29.250+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Started EmployeeManagementApplication in 0.75 seconds (process running for 467.722)
+2024-11-30T00:28:29.253+05:30  INFO 11820 --- [EmployeeManagement] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-30T00:28:32.318+05:30  INFO 11820 --- [EmployeeManagement] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30T00:28:32.319+05:30  INFO 11820 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-11-30T00:28:32.320+05:30  INFO 11820 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-11-30T00:35:19.841+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Starting EmployeeManagementApplication using Java 17.0.10 with PID 13436 (C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement\target\classes started by harish in C:\Users\harish\OneDrive\Desktop\project\EmployeeManagement)
+2024-11-30T00:35:19.857+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T00:35:19.910+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30T00:35:19.910+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30T00:35:20.731+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-30T00:35:20.789+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2024-11-30T00:35:21.416+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-11-30T00:35:21.435+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-30T00:35:21.435+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-11-30T00:35:21.493+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-30T00:35:21.496+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1583 ms
+2024-11-30T00:35:21.693+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-30T00:35:21.756+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-30T00:35:21.817+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-11-30T00:35:22.117+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-30T00:35:22.153+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-11-30T00:35:22.423+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f5b0fc
+2024-11-30T00:35:22.424+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-11-30T00:35:23.247+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-30T00:35:23.281+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-30T00:35:24.074+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-30T00:35:24.104+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2024-11-30T00:35:24.115+05:30  INFO 13436 --- [EmployeeManagement] [restartedMain] c.e.EmployeeManagementApplication        : Started EmployeeManagementApplication in 4.724 seconds (process running for 5.446)
+2024-11-30T00:35:29.077+05:30  INFO 13436 --- [EmployeeManagement] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30T00:35:29.078+05:30  INFO 13436 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2024-11-30T00:35:29.079+05:30  INFO 13436 --- [EmployeeManagement] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2024-11-30T00:35:29.716+05:30  INFO 13436 --- [EmployeeManagement] [http-nio-8080-exec-9] o.s.a.AbstractOpenApiResource            : Init duration for springdoc-openapi is: 368 ms
+2024-11-30T00:37:18.794+05:30  WARN 13436 --- [EmployeeManagement] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
