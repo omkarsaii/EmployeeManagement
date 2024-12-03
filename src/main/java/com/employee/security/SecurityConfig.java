@@ -1,11 +1,15 @@
 package com.employee.security;
 
+import javax.naming.AuthenticationException;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.config.Customizer;
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
@@ -21,7 +25,6 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableWebSecurity
 public class SecurityConfig {
 	
-	
 	@Autowired
 	private UserDetailsService userDetailsService;
 	
@@ -32,14 +35,14 @@ public class SecurityConfig {
 		http
 		.csrf(Customizer->Customizer.disable()) //csrf().disable()
 		.authorizeHttpRequests(request ->request
-				.requestMatchers("/register").permitAll()
+				.requestMatchers("/register","/login")
+				.permitAll()
 				.anyRequest().authenticated())
 //		.formLogin(Customizer.withDefaults())  //it will enable in browser like chrome 
 		.httpBasic(Customizer.withDefaults())  // enable postman
 		.sessionManagement(session->session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
 		.build();
 	}
-	
 	
 //	@Bean
 //	public  UserDetailsService userDetailsService()
@@ -59,9 +62,19 @@ public class SecurityConfig {
 	public AuthenticationProvider authenticationProvider()
 	{
 		DaoAuthenticationProvider provider=new DaoAuthenticationProvider();
-		provider.setPasswordEncoder(new BCryptPasswordEncoder());
+		provider.setPasswordEncoder(passwordEncoder());
 		provider.setUserDetailsService(userDetailsService);
 		return provider;
 	}
 	
+	@Bean
+	public BCryptPasswordEncoder passwordEncoder() {
+	    return new BCryptPasswordEncoder();
+	}
+	
+	@Bean
+	public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception
+	{
+		return config.getAuthenticationManager();
+	}
 }

@@ -20,5 +20,12 @@ public class UserController {
 	{
 		return service.register(user);
 	}
+	
+	@PostMapping("/login")
+	public String loginuser(@RequestBody Users user)
+	{
+//		System.out.println(user);
+		return service.verify(user);
+	}
 
 }
