@@ -27,8 +27,9 @@ public class JwtService {
 		
 		//generating key
 		try
-		{
-			KeyGenerator keygen=KeyGenerator.getInstance("HmacSHA256");
+		{  
+			//code to generate key with algorithm SHA256  with inbuild method generateKey
+			KeyGenerator keygen=KeyGenerator.getInstance("HmacSHA256"); 
 			SecretKey key=keygen.generateKey();
 			SECRET=Base64.getEncoder().encodeToString(key.getEncoded());
 		}

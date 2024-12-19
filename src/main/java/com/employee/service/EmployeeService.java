@@ -15,4 +15,6 @@ public interface EmployeeService {
 
 	void deleteEmployeeById(Long id);
 
+	List<Employee> getEmployeeWithSalaryGreaterThan(double salary);
+
 }

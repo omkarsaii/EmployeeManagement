@@ -39,6 +39,12 @@ public class EmployeeServiceImpl implements EmployeeService {
 		 repo.deleteById(id);
 		
 	}
+
+	@Override
+	public List<Employee> getEmployeeWithSalaryGreaterThan(double salary) {
+		
+		return repo.findEmployeeWithsalaryGreaterThan(salary);
+	}
 	
 	
 }
